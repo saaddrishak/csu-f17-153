@@ -2,19 +2,15 @@
 using namespace std;
 int main()
 {
-	int n;
-	int sum=0;
-	cout<<"enter the number lint that you find the sum of even number  ";
-
-	cin>>n;
-	for(int i=0;i<=n;i++)
-	{
-		if(i%2==0)
-		{
-			sum=sum+i;
-			
-		}
-	}
-cout<<"sum of even number is ="<<sum<<endl;
+float v,l,w,h;
+cout<<"enter the lenght of the box =";
+cin>>l;
+cout<<"enter the hight of the box =";
+cin>>h;
+cout<<"enter the weght of the box =";
+cin>>w;
+v=l*w*h;
+cout<<"the volume of the box is ="<<v;
+return 0;
 }
 
